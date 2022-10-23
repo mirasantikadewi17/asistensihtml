@@ -1,0 +1,75 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: url("untitled.png"); 
+    background-size: cover;
+    background-position: top center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+p {
+    margin: 0; 
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold; 
+    padding: 0 0 16px 100px; 
+    background-color: aqua;
+}
+
+p {
+    font-size: 20px;
+}
+
+.hero-image {
+    width: 300;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: chocolate;
+}
+
+a:visited {
+    color: crimson;
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    background-color: chartreuse;
+}
+
+.hero-text {
+    background-color: darkgreen;
+}
